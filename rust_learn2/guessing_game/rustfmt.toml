@@ -1,0 +1,3 @@
+# Force method chains to break on each dot
+chain_width = 0
+
