@@ -1,0 +1,13 @@
+// Return ownership from a function 
+// WAP function which takes a string and modify it and returns it
+
+fn string_modifier(s: String)-> String {
+   return s+" WORD";
+}
+fn main() {
+    let s = String::from("Hello");
+    // Shadowing of the variable
+    // We can use same name of the variable 
+    let s = string_modifier(s);
+    println!("String in main {}", s)
+}
